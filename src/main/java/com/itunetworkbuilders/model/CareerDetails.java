@@ -8,39 +8,37 @@ package com.itunetworkbuilders.model;
  *
  */
 public class CareerDetails {
-	private String Field; 
-	private String Description;
-	
-	public CareerDetails(String Field, String Description) {
-		// TODO Auto-generated constructor stub
-		super();
-		this.Field= Field;
-		this.Description= Description;
-	}
-	/**
-	 * @return the field
-	 */
-	public String getField() {
-		return Field;
-	}
-	/**
-	 * @param field the field to set
-	 */
-	public void setField(String field) {
-		Field = field;
-	}
-	/**
-	 * @return the description
-	 */
-	public String getDescription() {
-		return Description;
-	}
-	/**
-	 * @param description the description to set
-	 */
-	public void setDescription(String description) {
-		Description = description;
-	}
-	
+    public String firstName;
+    public String lastName;
+    public Integer age;
 
+    public  CareerDetails (String firstName, String lastName, Integer age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 }
