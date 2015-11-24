@@ -1,3 +1,6 @@
 com/itunetworkbuilders/ItuNetworkBuildersApplication.class
-com/itunetworkbuilders/controllers/CareerDetailsController.class
 com/itunetworkbuilders/model/CareerDetails.class
+com/itunetworkbuilders/model/Person.class
+com/itunetworkbuilders/controllers/CareerDetailsController.class
+com/itunetworkbuilders/controllers/LoginControllers.class
+com/itunetworkbuilders/model/Alumni.class
